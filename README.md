@@ -2,12 +2,12 @@
 Answer once and for all the burning question: is this a Ray?
 
 ##Installation
-```
-npm install is-a-ray --save
+```shell
+$ npm install is-a-ray --save
 ```
 
 ##Usage
-```
+```javascript
 var isARay = require('is-a-ray')
 
 isARay('Ray Winstone') // true
@@ -28,7 +28,9 @@ Feel free to open a pull request if you think that I may have missed a Ray.
 
 ###Tests
 Tests use [Tape] - only accept the best when testing for Rays - and are run with
-`npm test`
+```shell
+$ npm test
+```
 
 ###Formatting
 The code is formatted to the [standard.js] standard.
