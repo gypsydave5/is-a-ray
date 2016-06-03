@@ -1,6 +1,6 @@
 {
   "name": "is-a-ray",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "is it a Ray? Is it? IS IT?",
   "main": "index.js",
   "scripts": {
