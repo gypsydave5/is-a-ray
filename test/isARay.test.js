@@ -19,3 +19,10 @@ test('these things are not Rays', function (t) {
   t.notOk(isARay('Array'), '"Array" is not a Ray')
   t.notOk(isARay([]), 'An array is not a Ray')
 })
+
+test('these things might be Rays', function (t) {
+  t.plan(2)
+
+  t.equal(isARay('Raymond Romano'), 'maybe', '"Raymond Romano" might be a Ray')
+  t.equal(isARay('Raymond Chen'), 'maybe', '"Raymond Chen" might be a Ray')
+})
